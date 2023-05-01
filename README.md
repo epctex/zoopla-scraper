@@ -20,7 +20,7 @@ This scraper is under active development. If you have any feature requests you c
 
 The input of this scraper should be JSON containing the list of pages on Zoopla that should be visited. Possible fields are:
 
-- `startUrls`: (Optional) (Array) URLs to start with. It should be agent, search, list or property detail URL.
+- `startUrls`: (Required) (Array) URLs to start with. It should be agent, search, list or property detail URL.
 
 - `endPage`: (Optional) (Number) Final number of page that you want to scrape. Default is `Infinite`. This is applies to all `search` request and `startUrls` individually.
 
